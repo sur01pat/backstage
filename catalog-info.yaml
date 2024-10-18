@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ver-1
+  description: My Fisrt Node JS Service.
+  tags:
+    - go
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: backstage-team
